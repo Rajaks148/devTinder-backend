@@ -1,0 +1,21 @@
+{
+  "name": "devtinder-backend",
+  "version": "1.0.0",
+  "description": "Matching app for the Developers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "keywords": [
+    "mongodb",
+    "express",
+    "react",
+    "node"
+  ],
+  "author": "Raja ks",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
