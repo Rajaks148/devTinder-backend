@@ -47,8 +47,7 @@ authRouter.post("/login", async (req, res) => {
                 sameSite: "lax",
             });
             res.json({
-                message:"Loggedin successfully",
-                data:user
+                user
             }); 
         }
         
